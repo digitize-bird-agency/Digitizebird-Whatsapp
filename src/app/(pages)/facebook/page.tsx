@@ -19,7 +19,7 @@ const Facebook = () => {
                     <Badge>OFFICIAL META BUSINESS PARTNER</Badge>
                     <h1 className='text-4xl font-bold tracking-tight'>{facebookContent.heading_one}</h1>
                     <p className='text-lg tracking-tight font-light max-w-lg'>{facebookContent.section_one_paragraph}</p>
-                    <Button variant={"success"} size={"lg"}>Get Started</Button>
+                    <Button variant={"default"} size={"lg"}>Get Started</Button>
                 </div>
                 <div className='flex items-center justify-center'>
                     <Image src={"/images/instagram/instagram_hero.webp"} alt='instagram_Hero'
